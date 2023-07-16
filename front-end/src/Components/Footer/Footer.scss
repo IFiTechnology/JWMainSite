@@ -1,0 +1,138 @@
+:root {
+  --PrimaryColor: hsl(44, 95%, 43%);
+  --SecondaryColor: hsla(180, 6%, 85%, 0.938);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(48, 11%, 74%),
+    hsl(44, 92%, 49%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+}
+.footer {
+  background-color: black;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+
+  @media (min-width: 768px) {
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 13px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 5px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 4px;
+
+        .icon {
+          font-size: 20px;
+          margin-right: 10px;
+          color: var(--PrimaryColor);
+        }
+
+        &:hover {
+          color: var(--PrimaryColor);
+        }
+      }
+    }
+  }
+
+  .social-media {
+    display: flex;
+    margin-top: 10px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      border-radius: 50%;
+      margin-right: 10px;
+      text-align: center;
+      line-height: 30px;
+      color: var(--PrimaryColor);
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: var(--PrimaryColor);
+        color: #fff;
+      }
+    }
+  }
+}
+
+.copyright-section {
+  padding: 5px 0;
+  background-color: var(--PrimaryColor);
+  color: var(--whiteColor);
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+
+  a {
+    color: var(--whiteColor);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--PrimaryColor);
+    }
+  }
+}
+
+.privacy-policy {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 600;
+
+  a {
+    color: var(--whiteColor);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--PrimaryColor);
+    }
+  }
+}

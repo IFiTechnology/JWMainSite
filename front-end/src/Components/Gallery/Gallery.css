@@ -1,0 +1,38 @@
+.about .aboutCard .card {
+  position: relative;
+  width: 260px;
+  height: 220px;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+.about .aboutCard .card:hover {
+  transform: rotateY(0.5turn);
+}
+.about .aboutCard .card .card__face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+.about .aboutCard .card .card__face img {
+  width: 260px;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .aboutCard .card .card__face--back {
+  transform: rotateY(0.5turn);
+}
+.about .aboutText h3 {
+  margin: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.about .aboutText p {
+  font-family: "Inconsolata", monospace;
+  font-size: 15px;
+}/*# sourceMappingURL=Gallery.css.map */

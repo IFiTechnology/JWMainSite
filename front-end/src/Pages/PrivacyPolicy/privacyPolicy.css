@@ -1,0 +1,22 @@
+/* Privacy Policy Page Styles */
+.privacy-policy-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.privacy-policy-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.privacy-policy-page p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.privacy-policy-page a {
+  color: #333;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+.privacy-policy-page a:hover {
+  color: #666;
+}/*# sourceMappingURL=privacyPolicy.css.map */

@@ -1,0 +1,92 @@
+:root {
+  --PrimaryColor: hsl(44, 95%, 43%);
+  --SecondaryColor: hsla(180, 6%, 85%, 0.938);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(48, 11%, 74%),
+    hsl(44, 92%, 49%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+}
+
+.about .card {
+  box-shadow: 0 2px 4px rgba(2, 15, 29, 0.295);
+  display: grid;
+}
+.about .card img {
+  width: 100%;
+}
+.about .card .card__content {
+  padding: 25px;
+  color: #4e3501;
+}
+.about .card .card__content h3 {
+  font-size: 20px;
+  position: relative;
+}
+.about .card .card__content h3::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this value to change the distance between the heading and the border */
+  left: 0;
+  width: 95px;
+  height: 2px; /* Adjust this value to change the thickness of the border */
+  background-color: var(--PrimaryColor);
+}
+.about .card .card__content .long::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust this value to change the distance between the heading and the border */
+  left: 0;
+  width: 125px;
+  height: 2px; /* Adjust this value to change the thickness of the border */
+  background-color: var(--PrimaryColor);
+}
+.about .card .card__content p {
+  padding: 10px;
+  font-size: 0.8rem;
+}
+.about .card .card__content .aboutBtn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 20px;
+}
+.about .card .card__content .aboutBtn .btn {
+  background: transparent;
+  color: var(--PrimaryColor);
+  border: 1px var(--PrimaryColor) solid;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 0;
+    margin: 0.5rem;
+  }
+  .about .card {
+    display: flex;
+    flex: flex-grow;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .card img {
+    width: 450px;
+    height: auto;
+    margin-left: 4px;
+    box-shadow: 0 2px 4px rba(6, 15, 24, 0.699);
+  }
+}
+@media screen and (min-width: 1000px) {
+  .about {
+    padding: 5rem 2rem;
+  }
+  .about .card img {
+    width: 650px;
+    height: auto;
+  }
+  .about .card .card__content p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=About.css.map */
