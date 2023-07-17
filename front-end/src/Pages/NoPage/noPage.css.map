@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"noPage.css"}
+{"version":3,"sources":["noPage.scss","noPage.css"],"names":[],"mappings":"AAAA;EACI,uBAAA;EACA,2CAAA;EACA,gFAAA;EACA,8BAAA;EACA,gCAAA;EACA,8BAAA;ACCJ;;ADEE;EAEI,aAAA;EACA,sBAAA;EACA,iBAAA;EACA,yBAAA;ACAN;;ADGI;EACE,OAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,uBAAA;ACAN;;ADGI;EACE,eAAA;EACA,mBAAA;EACA,WAAA;ACAN;;ADGI;EACE,iBAAA;EACA,WAAA;ACAN","file":"noPage.css"}

@@ -1,0 +1,175 @@
+:root {
+    --PrimaryColor: #e7a304;
+    --SecondaryColor: hsla(180, 6%, 85%, 0.938);
+    --gradientColor: linear-gradient(
+      to right,
+      hsl(48, 11%, 74%),
+      hsl(44, 92%, 49%)
+    );
+    --whiteColor: hsl(0, 0%, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+  }
+  
+  .about-page {
+    display: flex;
+    flex-direction: column;
+  }
+  .abouthero {
+    position: relative;
+  
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(25, 75, 167, 0.6);
+      }
+    }
+  
+    .aboutHero-description {
+      position: absolute;
+      z-index: 1;
+      text-align: left;
+      color: #fff;
+      padding: 20px;
+  
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+  
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  about-section {
+    .sectionTitle {
+      color: #4e3501;
+    }
+  }
+  .mission-vision-section {
+    background-color: #eaeaea;
+  }
+  
+  .section.founder-profile-section {
+    position: relative;
+    // background: url(../../Assets/pastorBG.jpg);
+    background: var(--whiteColor);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+  
+    .pstcard {
+      display: flex;
+      flex-direction: column;
+      flex: flex-grow;
+  
+      margin: 0 10rem;
+  
+      .pstDetail {
+        color: #4e3501;
+        margin-bottom: 20px;
+        width: 500px;
+        margin-top: 2rem;
+  
+  
+        .pstChidiDetail {
+          align-items: center;
+          justify-content: center;
+          .pstChidi {
+            border-bottom: 4px solid var(--PrimaryColor);
+          }
+        }
+  
+        p {
+          font-size: 16px;
+          line-height: 1.5;
+          margin-top: 15px;
+          margin-bottom: 25px;
+          align-items: center;
+          justify-content: center;
+        }
+        .social-media {
+          display: flex;
+          justify-content: left;
+  
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            background-color: #4e3501;
+            border-radius: 50%;
+            margin: 0 2px;
+            text-align: center;
+            color: #FAF9F6;
+            transition: background-color 0.3s ease;
+            font-size: 20px;
+  
+      
+            &:hover {
+              background-color: var(--PrimaryColor);
+              color: #fff;
+            }
+          }
+        }
+      }
+  
+      img {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  
+    @media (min-width: 768px) {
+      .pstcard {
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+  
+        .pstDetail {
+          margin-bottom: 0;
+          margin-right: 40px;
+        }
+      }
+    }
+  }
+  
+  .key-scripture-section {
+    background: url(../../Assets/bible.jpg);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
