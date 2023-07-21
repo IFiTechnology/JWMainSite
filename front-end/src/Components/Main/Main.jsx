@@ -113,7 +113,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div class="profile-card">
+          {/* <div class="profile-card">
             <img class="profile-image" src={PstEbuka} alt="Profile Image" />
             <h4 class="profile-name">Pst Ebuka</h4>
             <p class="profile-description">Pastor/Worshipper</p>
@@ -127,7 +127,7 @@ const Main = () => {
                 <AiFillInstagram className="icon" />{" "}
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       {/*======================= Contact Us Section ========================*/}

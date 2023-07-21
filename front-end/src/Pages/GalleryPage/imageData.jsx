@@ -1,155 +1,155 @@
 // // Pictures from Outareaches 
-// import image1 from "../../Assets/outreach/2022image1";
-// import image2 from "../../Assets/outreach/2022image2";
-// import image3 from "../../Assets/outreach/2022image3";
-// import image4 from "../../Assets/outreach/2022image4";
-// import image5 from "../../Assets/outreach/2022image5";
-// import image6 from "../../Assets/outreach/2022image6";
-// import image7 from "../../Assets/outreach/2022image7";
-// import image8 from "../../Assets/outreach/2022image8";
-// import image9 from "../../Assets/outreach/2022image9";
-// import image10 from "../../Assets/outreach/2022image10";
-// import image11 from "../../Assets/outreach/2022image11";
-// import image12 from "../../Assets/outreach/2022image12";
-// import image13 from "../../Assets/outreach/2022image13";
-// import image14 from "../../Assets/outreach/2022image14";
-// import image15 from "../../Assets/outreach/2022image15";
-// import image16 from "../../Assets/outreach/2022image16";
-// import image17 from "../../Assets/outreach/2022image17";
-// import image18 from "../../Assets/outreach/2022image18";
-// import image19 from "../../Assets/outreach/2022image19";
-// import image20 from "../../Assets/outreach/2022image20";
-// import image21 from "../../Assets/outreach/2022image21";
-// import image22 from "../../Assets/outreach/2022image22";
-// import image23 from "../../Assets/outreach/2022image23";
-// import image24 from "../../Assets/outreach/2020image1";
-// import image25 from "../../Assets/outreach/2020image2";
-// import image26 from "../../Assets/outreach/2020image3";
-// import image27 from "../../Assets/outreach/2020image4";
-// import image28 from "../../Assets/outreach/2020image5";
-// import image29 from "../../Assets/outreach/2020image6";
-// import image30 from "../../Assets/outreach/2020image7";
-// import image31 from "../../Assets/outreach/2020image8";
-// import image32 from "../../Assets/outreach/2020image9";
-// import image33 from "../../Assets/outreach/2020image10";
-// import image34 from "../../Assets/outreach/2020image11";
-// import image35 from "../../Assets/outreach/2020image12";
-// import image36 from "../../Assets/outreach/2020image13";
-// import image37 from "../../Assets/outreach/2020image14";
-// import image38 from "../../Assets/outreach/2020image15";
-// import image39 from "../../Assets/outreach/2020image16";
-// import image40 from "../../Assets/outreach/2020image17";
-// import image41 from "../../Assets/outreach/2020image18";
-// import image42 from "../../Assets/outreach/2020image19";
-// import image43 from "../../Assets/outreach/2020image20";
-// import image44 from "../../Assets/outreach/2020image21";
-// import image45 from "../../Assets/outreach/2020image22";
-// import image46 from "../../Assets/outreach/2020image23";
-// import image47 from "../../Assets/outreach/2020image24";
-// import image48 from "../../Assets/outreach/2020image25";
-// import image49 from "../../Assets/outreach/2020image26";
-// import image50 from "../../Assets/outreach/2020image27";
-// import image51 from "../../Assets/outreach/2020image28";
-// import image52 from "../../Assets/outreach/2020image29";
-// import image53 from "../../Assets/outreach/2020image30";
-// import image54 from "../../Assets/outreach/2018image1";
-// import image55 from "../../Assets/outreach/2018image2";
-// import image56 from "../../Assets/outreach/2018image3";
-// import image57 from "../../Assets/outreach/2018image4";
-// import image58 from "../../Assets/outreach/2018image5";
-// import image59 from "../../Assets/outreach/2018image6";
-// import image60 from "../../Assets/outreach/2018image7";
-// import image61 from "../../Assets/outreach/2018image8";
-// import image62 from "../../Assets/outreach/2018image9";
-// import image63 from "../../Assets/outreach/2018image10";
-// import image64 from "../../Assets/outreach/2018image11";
-// import image65 from "../../Assets/outreach/2018image12";
-// import image66 from "../../Assets/outreach/2018image13";
-// import image67 from "../../Assets/outreach/2018image14";
-// import image68 from "../../Assets/outreach/2018image15";
-// import image69 from "../../Assets/outreach/2018image16";
-// import image70 from "../../Assets/outreach/2018image17";
-// import image71 from "../../Assets/outreach/2018image18";
+import image1 from "./images/outreach/outreach221";
+import image2 from "./images/outreach/outreach222";
+import image3 from "./images/outreach/outreach223";
+import image4 from "./images/outreach/outreach224";
+import image5 from "./images/outreach/outreach225";
+import image6 from "./images/outreach/outreach226";
+import image7 from "./images/outreach/outreach227";
+import image8 from "./images/outreach/outreach228";
+import image9 from "./images/outreach/outreach229";
+import image10 from "./images/outreach/outreach2210";
+import image11 from "./images/outreach/outreach2211";
+import image12 from "./images/outreach/outreach2212";
+import image13 from "./images/outreach/outreach2213";
+import image14 from "./images/outreach/outreach2214";
+import image15 from "./images/outreach/outreach2215";
+import image16 from "./images/outreach/outreach2216";
+import image17 from "./images/outreach/outreach2217";
+import image18 from "./images/outreach/outreach2218";
+import image19 from "./images/outreach/outreach2219";
+import image20 from "./images/outreach/outreach2220";
+import image21 from "./images/outreach/outreach2221";
+import image22 from "./images/outreach/outreach2222";
+import image23 from "./images/outreach/outreach2223";
+import image24 from "./images/outreach/outreach2224";
+import image25 from "./images/outreach/outreach201";
+import image26 from "./images/outreach/outreach202";
+import image27 from "./images/outreach/outreach203";
+import image28 from "./images/outreach/outreach204";
+import image29 from "./images/outreach/outreach205";
+import image30 from "./images/outreach/outreach206";
+import image31 from "./images/outreach/outreach207";
+import image32 from "./images/outreach/outreach208";
+import image33 from "./images/outreach/outreach209";
+import image34 from "./images/outreach/outreach2011";
+import image35 from "./images/outreach/outreach2012";
+import image36 from "./images/outreach/outreach2013";
+import image37 from "./images/outreach/outreach2014";
+import image38 from "./images/outreach/outreach2015";
+import image39 from "./images/outreach/outreach2016";
+import image40 from "./images/outreach/outreach2017";
+import image41 from "./images/outreach/outreach2018";
+import image42 from "./images/outreach/outreach2019";
+import image43 from "./images/outreach/outreach2020";
+import image44 from "./images/outreach/outreach2021";
+import image45 from "./images/outreach/outreach2022";
+import image46 from "./images/outreach/outreach2023";
+import image47 from "./images/outreach/outreach2024";
+import image48 from "./images/outreach/outreach2025";
+import image49 from "./images/outreach/outreach2026";
+import image50 from "./images/outreach/outreach2027";
+import image51 from "./images/outreach/outreach2028";
+import image52 from "./images/outreach/outreach2029";
+import image53 from "./images/outreach/outreach2030";
+import image54 from "./images/outreach/outreach2031";
+import image55 from "./images/outreach/outreach181";
+import image56 from "./images/outreach/outreach182";
+import image57 from "./images/outreach/outreach183";
+import image58 from "./images/outreach/outreach184";
+import image59 from "./images/outreach/outreach185";
+import image60 from "./images/outreach/outreach186";
+import image61 from "./images/outreach/outreach187";
+import image62 from "./images/outreach/outreach188";
+import image63 from "./images/outreach/outreach189";
+import image64 from "./images/outreach/outreach1810";
+import image65 from "./images/outreach/outreach1811";
+import image66 from "./images/outreach/outreach1812";
+import image67 from "./images/outreach/outreach1813";
+import image68 from "./images/outreach/outreach1814";
+import image69 from "./images/outreach/outreach1815";
+import image70 from "./images/outreach/outreach1816";
+import image71 from "./images/outreach/outreach1817";
 
 
 
-// export const imageData = [
-//   { category: "Outreach", url: image1},
-//   { category: "Outreach", url: image2},
-//   { category: "Outreach", url: image3},
-//   { category: "Outreach", url: image4},
-//   { category: "Outreach", url: image5},
-//   { category: "Outreach", url: image6},
-//   { category: "Outreach", url: image7},
-//   { category: "Outreach", url: image8},
-//   { category: "Outreach", url: image9},
-//   { category: "Outreach", url: image10},
-//   { category: "Outreach", url: image11},
-//   { category: "Outreach", url: image12},
-//   { category: "Outreach", url: image13},
-//   { category: "Outreach", url: image14},
-//   { category: "Outreach", url: image15},
-//   { category: "Outreach", url: image16},
-//   { category: "Outreach", url: image17},
-//   { category: "Outreach", url: image18},
-//   { category: "Outreach", url: image19},
-//   { category: "Outreach", url: image20},
-//   { category: "Outreach", url: image21},
-//   { category: "Outreach", url: image22},
-//   { category: "Outreach", url: image23},
-//   { category: "Outreach", url: image24},
-//   { category: "Outreach", url: image25},
-//   { category: "Outreach", url: image26},
-//   { category: "Outreach", url: image27},
-//   { category: "Outreach", url: image28},
-//   { category: "Outreach", url: image29},
-//   { category: "Outreach", url: image30},
-//   { category: "Outreach", url: image31},
-//   { category: "Outreach", url: image32},
-//   { category: "Outreach", url: image33},
-//   { category: "Outreach", url: image34},
-//   { category: "Outreach", url: image35},
-//   { category: "Outreach", url: image36},
-//   { category: "Outreach", url: image37},
-//   { category: "Outreach", url: image38},
-//   { category: "Outreach", url: image39},
-//   { category: "Outreach", url: image40},
-//   { category: "Outreach", url: image41},
-//   { category: "Outreach", url: image42},
-//   { category: "Outreach", url: image43},
-//   { category: "Outreach", url: image44},
-//   { category: "Outreach", url: image45},
-//   { category: "Outreach", url: image46},
-//   { category: "Outreach", url: image47},
-//   { category: "Outreach", url: image48},
-//   { category: "Outreach", url: image49},
-//   { category: "Outreach", url: image50},
-//   { category: "Outreach", url: image51},
-//   { category: "Outreach", url: image52},
-//   { category: "Outreach", url: image53},
-//   { category: "Outreach", url: image54},
-//   { category: "Outreach", url: image55},
-//   { category: "Outreach", url: image56},
-//   { category: "Outreach", url: image57},
-//   { category: "Outreach", url: image58},
-//   { category: "Outreach", url: image59},
-//   { category: "Outreach", url: image60},
-//   { category: "Outreach", url: image61},
-//   { category: "Outreach", url: image62},
-//   { category: "Outreach", url: image63},
-//   { category: "Outreach", url: image64},
-//   { category: "Outreach", url: image65},
-//   { category: "Outreach", url: image66},
-//   { category: "Outreach", url: image67},
-//   { category: "Outreach", url: image68},
-//   { category: "Outreach", url: image69},
-//   { category: "Outreach", url: image70},
-//   { category: "Outreach", url: image71},
-//   // { category: "Outreach", url: image72},
-//   // { category: "Outreach", url: image73},
-// ];
+export const imageData = [
+  { category: "Outreach", url: image1},
+  { category: "Outreach", url: image2},
+  { category: "Outreach", url: image3},
+  { category: "Outreach", url: image4},
+  { category: "Outreach", url: image5},
+  { category: "Outreach", url: image6},
+  { category: "Outreach", url: image7},
+  { category: "Outreach", url: image8},
+  { category: "Outreach", url: image9},
+  { category: "Outreach", url: image10},
+  { category: "Outreach", url: image11},
+  { category: "Outreach", url: image12},
+  { category: "Outreach", url: image13},
+  { category: "Outreach", url: image14},
+  { category: "Outreach", url: image15},
+  { category: "Outreach", url: image16},
+  { category: "Outreach", url: image17},
+  { category: "Outreach", url: image18},
+  { category: "Outreach", url: image19},
+  { category: "Outreach", url: image20},
+  { category: "Outreach", url: image21},
+  { category: "Outreach", url: image22},
+  { category: "Outreach", url: image23},
+  { category: "Outreach", url: image24},
+  { category: "Outreach", url: image25},
+  { category: "Outreach", url: image26},
+  { category: "Outreach", url: image27},
+  { category: "Outreach", url: image28},
+  { category: "Outreach", url: image29},
+  { category: "Outreach", url: image30},
+  { category: "Outreach", url: image31},
+  { category: "Outreach", url: image32},
+  { category: "Outreach", url: image33},
+  { category: "Outreach", url: image34},
+  { category: "Outreach", url: image35},
+  { category: "Outreach", url: image36},
+  { category: "Outreach", url: image37},
+  { category: "Outreach", url: image38},
+  { category: "Outreach", url: image39},
+  { category: "Outreach", url: image40},
+  { category: "Outreach", url: image41},
+  { category: "Outreach", url: image42},
+  { category: "Outreach", url: image43},
+  { category: "Outreach", url: image44},
+  { category: "Outreach", url: image45},
+  { category: "Outreach", url: image46},
+  { category: "Outreach", url: image47},
+  { category: "Outreach", url: image48},
+  { category: "Outreach", url: image49},
+  { category: "Outreach", url: image50},
+  { category: "Outreach", url: image51},
+  { category: "Outreach", url: image52},
+  { category: "Outreach", url: image53},
+  { category: "Outreach", url: image54},
+  { category: "Outreach", url: image55},
+  { category: "Outreach", url: image56},
+  { category: "Outreach", url: image57},
+  { category: "Outreach", url: image58},
+  { category: "Outreach", url: image59},
+  { category: "Outreach", url: image60},
+  { category: "Outreach", url: image61},
+  { category: "Outreach", url: image62},
+  { category: "Outreach", url: image63},
+  { category: "Outreach", url: image64},
+  { category: "Outreach", url: image65},
+  { category: "Outreach", url: image66},
+  { category: "Outreach", url: image67},
+  { category: "Outreach", url: image68},
+  { category: "Outreach", url: image69},
+  { category: "Outreach", url: image70},
+  { category: "Outreach", url: image71},
+  // { category: "Outreach", url: image72},
+  // { category: "Outreach", url: image73},
+];
 
-// export const imagesPerPage = 20;
+export const imagesPerPage = 20;
 
 
 

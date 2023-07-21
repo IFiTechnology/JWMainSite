@@ -89,7 +89,7 @@ const Footer = () => {
  <div class="copyright-section">
  <p>&copy; 2023 Just Worship Intenational Music Outreach. All rights reserved.</p>
  <p class="privacy-policy">
-   <Link to="/privacy-policy">Privacy Policy</Link>
+   <Link to="/privacy">Privacy Policy</Link>
  </p>
 </div>
 </>

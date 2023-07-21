@@ -1,8 +1,29 @@
 /* Privacy Policy Page Styles */
+:root {
+  --PrimaryColor: #e7a304;
+  --SecondaryColor: hsla(180, 6%, 85%, 0.938);
+  --gradientColor: linear-gradient(
+    to right,
+    hsl(48, 11%, 74%),
+    hsl(44, 92%, 49%)
+  );
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+}
+
+.privacy {
+  background-color: black;
+}
+
 .privacy-policy-page {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  color: var(--whiteColor);
+}
+.privacy-policy-page .textArea {
+  margin-top: 120px;
 }
 .privacy-policy-page h1 {
   font-size: 24px;
