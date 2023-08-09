@@ -5,6 +5,7 @@ import { MdOutlineLocalPhone } from "react-icons/md";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -88,7 +89,7 @@ const Footer = () => {
  <div class="copyright-section">
  <p>&copy; 2023 Just Worship Intenational Music Outreach. All rights reserved.</p>
  <p class="privacy-policy">
-   <a href="/privacy-policy">Privacy Policy</a>
+   <Link to="/privacy">Privacy Policy</Link>
  </p>
 </div>
 </>
