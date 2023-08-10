@@ -1,6 +1,6 @@
 import React from "react";
 import aboutF from "../../Assets/about.jpg";
-import aboutB from "../../Assets/aboutB.jpg";
+// import aboutB from "../../Assets/aboutB.jpg";
 
 import "./About.css";
 

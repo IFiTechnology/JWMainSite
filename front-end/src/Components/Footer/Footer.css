@@ -95,7 +95,7 @@
 
 .copyright-section {
   padding: 5px 0;
-  background-color: var(--PrimaryColor);
+  background-color: black;
   color: var(--whiteColor);
   text-align: center;
   font-size: 12px;
