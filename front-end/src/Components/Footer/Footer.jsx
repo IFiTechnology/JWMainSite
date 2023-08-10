@@ -25,10 +25,10 @@ const Footer = () => {
       <ul>
         <li>
           <a
-            href="https://maps.google.com/maps?q=51 Unity St, Abakpa 400103, Enugu"
+            href="https://www.google.com/maps/@6.4316578,7.4994582,3a,75y,261.46h,86.63t/data=!3m6!1e1!3m4!1sncJT33NSrR1djZR4HCrquQ!2e0!7i13312!8i6656?entry=ttu"
             target="_blank"
           >
-            <MdOutlineLocationOn className="icon" /> No 38 Edinburgh
+            <MdOutlineLocationOn className="icon" /> 52 Edinburgh Road, Ogui, Enugu
           </a>
         </li>
         <li>
