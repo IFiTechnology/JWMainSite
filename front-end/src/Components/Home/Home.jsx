@@ -6,7 +6,6 @@ import { AiFillInstagram } from "react-icons/ai";
 import { RiSpotifyLine } from "react-icons/ri";
 import { SiAudiomack } from "react-icons/si";
 import { SiApplemusic } from "react-icons/si";
-import { SiYoutubemusic } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import "./Home.css";
 
@@ -37,6 +36,8 @@ const Home = () => {
             Amongst the thousand let your voice be heard.
           </p>
         </div>
+        {/*social media icons section*/}
+
         <div className="buttonDiv">
           <div className="social-icons">
             <button className="follow-btn btn" onClick={handleButtonClick}>
@@ -46,54 +47,57 @@ const Home = () => {
             {showIcons && (
               <div className="icons-container">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://web.facebook.com/Justworshipinternational"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaFacebookF className="icon" />
                 </a>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://instagram.com/justworshipinternational?igshid=OGQ5ZDc2ODk2ZA=="
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <AiFillInstagram className="icon" />
                 </a>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://t.me/justworshipinternational"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaTelegramPlane className="icon" />
                 </a>
-                {/* Add more social media icons */}
+                
               </div>
             )}
           </div>
 
           <div className="stream-icons">
-            <button className="stream-btn btn" onClick={handleStreamButtonClick}>
+            <button
+              className="stream-btn btn"
+              onClick={handleStreamButtonClick}
+            >
               Stream
             </button>
 
             {showStreamIcons && (
               <div className="icons-container">
                 <a
-                  href="https://www.facebook.com"
+                  href="https://open.spotify.com/artist/1qPJZMQy4v1XXtJcrogEiL?si=8_bdsGYYRYWBP4OZZSgvYg"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <RiSpotifyLine className="icon" />
                 </a>
                 <a
-                  href="https://www.twitter.com"
+                  href="https://audiomack.com/just-worship-team"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <SiAudiomack className="icon" />
                 </a>
                 <a
-                  href="https://www.instagram.com"
+                  href="https://music.apple.com/ng/album/yes-you-are-ep/1667963057"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -101,15 +105,7 @@ const Home = () => {
                 </a>
 
                 <a
-                  href="https://www.instagram.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <SiYoutubemusic className="icon" />
-                </a>
-
-                <a
-                  href="https://www.instagram.com"
+                  href="https://youtube.com/@JUSTWORSHIPINTERNATIONAL"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

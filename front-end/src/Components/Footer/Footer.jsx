@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="tel:+32 467 81 42 71">
+          <a href="https://wa.me/32 467 81 42 71">
             <MdOutlineLocalPhone className="icon" />
             +1 123 456 7890
           </a>
