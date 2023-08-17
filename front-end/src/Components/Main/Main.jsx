@@ -9,7 +9,6 @@ import PstEbuka from "../../Assets/PstEbuka.jpg";
 import { FaFacebookF } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiMessengerLine } from "react-icons/ri";
-import { ImWhatsapp } from "react-icons/im";
 import "./Main.css";
 
 const Main = () => {
@@ -86,11 +85,11 @@ const Main = () => {
             <h4 class="profile-name">Pst Chidi Ani</h4>
             <p class="profile-description">Founder/President</p>
             <div class="social-media">
-              <a href="#">
+              <a href="https://web.facebook.com/chididavidanii">
                 {" "}
                 <FaFacebookF className="icon" />{" "}
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/chididavidani/">
                 {" "}
                 <AiFillInstagram className="icon" />{" "}
               </a>
@@ -102,11 +101,11 @@ const Main = () => {
             <h4 class="profile-name">Rev Glorious Ani</h4>
             <p class="profile-description">Worship Leader</p>
             <div class="social-media">
-              <a href="#">
+              <a href="https://web.facebook.com/chididavidanii">
                 {" "}
                 <FaFacebookF className="icon" />{" "}
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/chididavidani/">
                 {" "}
                 <AiFillInstagram className="icon" />{" "}
               </a>

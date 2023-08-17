@@ -22,9 +22,9 @@ const About = () => {
             Our mission is to inspire intimacy with GOD through Worship and
             Praise and also reaching out to the unreached.
           </p>
-          <div className="aboutBtn">
+          {/* <div className="aboutBtn">
             <button className="btn">Read More..</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -63,7 +63,6 @@
   
   .section.founder-profile-section {
     position: relative;
-    // background: url(../../Assets/pastorBG.jpg);
     background: var(--whiteColor);
     background-size: cover;
     background-position: right;
@@ -81,7 +80,6 @@
         margin-bottom: 20px;
         width: 500px;
         margin-top: 2rem;
-  
   
         .pstChidiDetail {
           align-items: center;
@@ -113,11 +111,10 @@
             border-radius: 50%;
             margin: 0 2px;
             text-align: center;
-            color: #FAF9F6;
+            color: #faf9f6;
             transition: background-color 0.3s ease;
             font-size: 20px;
   
-      
             &:hover {
               background-color: var(--PrimaryColor);
               color: #fff;
@@ -134,19 +131,32 @@
       }
     }
   
-    @media (min-width: 768px) {
+    @media (max-width: 1200px) {
       .pstcard {
-        flex-direction: row;
-        align-items: flex-start;
-        text-align: left;
+        margin: 0 5rem;
+      }
+    }
   
-        .pstDetail {
-          margin-bottom: 0;
-          margin-right: 40px;
-        }
+    @media (max-width: 992px) {
+      .pstcard {
+        margin: 0;
+      }
+  
+      img {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .pstcard {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       }
     }
   }
+  
   
   .key-scripture-section {
     background: url(../../Assets/bible.jpg);
